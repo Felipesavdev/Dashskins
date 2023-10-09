@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0px 32px;
+    height: 56px;
+    background: #000;
+}
+
+.item1 {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    .img {
+        height: 40px;
+    }
+
+    .text { 
+        color: #fff;
+    }
+}
+
+.item2 {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-end;
+
+    .bandeira {
+        height: 40px;
+    }
+
+    .text { 
+        color: #fff;
+    }
+    .entrar {
+    width: 105.83px;
+    height: 40px;
+    background-color: #7ea64b;
+    border-color: transparent;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 7px 16px;
+    text-align: center;
+    
+    }
+    .steam {
+    width: 16px;
+    padding: 5%;
+    gap: 5px;
+    color: #fff;
+    display: flex;
+   }
+
+
+}
+
+
+

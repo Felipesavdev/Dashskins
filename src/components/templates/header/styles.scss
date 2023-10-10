@@ -28,30 +28,31 @@
     align-items: center;
     justify-content: flex-end;
 
-    .bandeira {
+    .flag {
         height: 40px;
     }
 
     .text { 
         color: #fff;
     }
-    .entrar {
-    width: 105.83px;
-    height: 40px;
-    background-color: #7ea64b;
-    border-color: transparent;
-    box-sizing: border-box;
-    border-radius: 4px;
-    padding: 7px 16px;
-    text-align: center;
-    
+
+    .login {
+        width: 105.83px;
+        height: 40px;
+        background-color: #7ea64b;
+        border-color: transparent;
+        box-sizing: border-box;
+        border-radius: 4px;
+        padding: 7px 16px;
+        text-align: center;
     }
+    
     .steam {
-    width: 16px;
-    padding: 5%;
-    gap: 5px;
-    color: #fff;
-    display: flex;
+        width: 16px;
+        padding: 5%;
+        gap: 5px;
+        color: #fff;
+        display: flex;
    }
 
 

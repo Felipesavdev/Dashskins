@@ -3,8 +3,7 @@ import Header from "../../components/templates/header";
 
 const HomePage = () => {
 	const navigate = useNavigate();
-
-	return (
+		return (
 		<>
 			<Header />
 			<button onClick={() => navigate('/contact')}>

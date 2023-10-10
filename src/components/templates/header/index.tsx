@@ -11,8 +11,8 @@ const Header =() => {
             <div className='item2'> 
                 <p className='text'>Vender itens</p>
                 <p className='text'>Carrinho</p>
-                <img className='bandeira' src="https://dashskins.com.br/langs/br.png"  />
-            <div className='entrar'>
+                <img className='flag' src="https://dashskins.com.br/langs/br.png"  />
+            <div className='login'>
                 <a href="https://dashskins.com.br/api/auth/steam" >
                     <div className="steam">
                         <div className='svg-icon'>

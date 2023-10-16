@@ -1,5 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import Header from "../../components/templates/header";
+import Banner from "../../components/ui/banner";
+import Buttons from "../../components/ui/buttons";
 
 const HomePage = () => {
 	const navigate = useNavigate();
@@ -8,7 +10,9 @@ const HomePage = () => {
 			<Header />
 			<button onClick={() => navigate('/contact')}>
 				Contact
-			</button>              
+			</button>             
+			<Banner /> 
+			<Buttons/>
 		</>
 	)
 }

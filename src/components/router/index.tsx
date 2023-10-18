@@ -3,7 +3,7 @@ import Home from "../../pages/home";
 import Contact from "../../pages/contact";
 
 const Router = () => {
-    const router = createBrowserRouter ([
+  const router = createBrowserRouter([
     {
       path: "/",
       element: <Home />
@@ -12,12 +12,11 @@ const Router = () => {
       path: "contact",
       element: <Contact />
     }
-  ])
-  
+  ]);
+
   return (
     <RouterProvider router={router} />
-  )
-}
-  
+  );
+};
 
-  export default Router 
+export default Router;

@@ -11,7 +11,7 @@ function Banner() {
     { 
       id: '2', 
       image: './src/assets/images/banners/ak47.jpg',
-      name: 'ak47'
+      name: ''
     },
     { 
       id: '3', 
@@ -21,17 +21,17 @@ function Banner() {
   ];
 
   return (
-      <div className="banner-container">
-        <Swiper slidesPerView={1} navigation>
-          {data.map((item) => {
-            return (
-              <SwiperSlide key={item.id}>
-                <img src={item.image} alt={item.name} className="slide-item" />
-              </SwiperSlide>
-            )
-          })}
-        </Swiper>
-      </div>
+  <div className="banner-container">
+    <Swiper slidesPerView={1} navigation>
+      {data.map((item) => {
+        return (
+          <SwiperSlide key={item.id}>
+            <img src={item.image} alt={item.name} className="slide-item" />
+          </SwiperSlide>
+        )
+      })}
+    </Swiper>
+  </div>
   )};
 
 export default Banner;

@@ -1,17 +1,15 @@
-import { useNavigate } from "react-router-dom";
 import Header from "../../components/templates/header";
+import Banner from "../../components/ui/banner";
+import './styles.scss'
 
 const HomePage = () => {
-  const navigate = useNavigate();
-
-  return (
-    <>
-      <Header />
-      <button onClick={() => navigate('/contact')}>
-        Contact
-      </button>              
-    </>
-  );
-};
-
+	return (
+		<>
+			<Header />
+			<div className="content">
+				<Banner />
+			</div>
+		</>
+	);
+}
 export default HomePage;

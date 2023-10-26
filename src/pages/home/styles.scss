@@ -1,4 +1,7 @@
-.content {
-  padding: 0 16px 24px 16px;
-  background: #111111;
+.home {
+  >.content {
+    padding: 0 16px 24px 16px;
+    background: #111111;
+    height: 1700px;
+  }
 }

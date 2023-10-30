@@ -13,13 +13,14 @@
     align-items: center;
     justify-content: center;
     > .social-networks {
-      width: 150px;
-      display: flex;
-      flex-direction: row;
-      gap: 16px;
-      padding: 16px;
+      margin: 0 0 16px 0;
+      a {
       color: #6495ed;
       cursor: pointer;
+      padding: 8px;
+      }
+  
+      
     }
     > .description {
       display: flex;
@@ -30,6 +31,7 @@
         color: #EAEAEA;
         font-size: 12.5px;
         text-align: center;
+        
       }
     }
   }

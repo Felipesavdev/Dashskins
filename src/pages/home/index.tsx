@@ -1,6 +1,8 @@
 import Footer from "../../components/templates/footer";
 import Header from "../../components/templates/header";
 import Banner from "../../components/ui/banner";
+import Selects from "../../components/ui/selects";
+
 import './styles.scss'
 
 const HomePage = () => {
@@ -9,6 +11,7 @@ const HomePage = () => {
 			<Header />
 			<div className="content">
 				<Banner />
+				<Selects />
 			</div>
 			<Footer />
 		</div>

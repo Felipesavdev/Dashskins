@@ -6,15 +6,15 @@ import Selects from "../../components/ui/selects";
 import './styles.scss'
 
 const HomePage = () => {
-	return (
-		<div className="home">
-			<Header />
-			<div className="content">
-				<Banner />
-				<Selects />
-			</div>
-			<Footer />
-		</div>
-	);
+  return (
+    <div className="home">
+      <Header />
+      <div className="content">
+        <Banner />
+        <Selects />
+      </div>
+      <Footer />
+    </div>
+  );
 }
 export default HomePage;

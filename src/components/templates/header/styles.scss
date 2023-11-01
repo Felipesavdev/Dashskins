@@ -7,35 +7,28 @@
     height: 56px;
     background: #000;
 }
-
 .item1 {
     display: flex;
     align-items: center;
     gap: 16px;
-
     .img {
         height: 40px;
     }
-
     .text { 
         color: #fff;
     }
 }
-
 .item2 {
     display: flex;
     gap: 16px;
     align-items: center;
     justify-content: flex-end;
-
     .flag {
         height: 40px;
     }
-
     .text { 
         color: #fff;
     }
-
     .login {
         width: 105.83px;
         height: 40px;
@@ -46,7 +39,6 @@
         padding: 7px 16px;
         text-align: center;
     }
-    
     .steam {
         width: 16px;
         padding: 5%;
@@ -54,8 +46,6 @@
         color: #fff;
         display: flex;
    }
-
-
 }
 
 
